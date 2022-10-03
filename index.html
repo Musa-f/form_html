@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+        <form action="">
+
+            <fieldset>
+                <legend>Info personnelles</legend>
+            <label for="prenom">Prénom</label>
+            <input type="text" name="prenom" placeholder="Ex: Jacques" maxlength="20" minlength="2">
+
+            <br>
+
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" placeholder="Ex: Dubois" maxlength="20" minlength="2">
+
+            <br>
+
+            <label for="mail">E-mail</label>
+            <input type="email" name="mail" placeholder="Ex: monmail@mail.com">
+
+            <br>
+
+            <label for="numero">Numéro</label>
+            <input type="number" name="numero" placeholder="Ex: 01.02.03.04">
+
+            <br>
+
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" placeholder="Votre mot de passe">
+
+            <br>
+
+            <label for="age">Âge</label>
+            <input type="number" name="age" placeholder="Votre âge">
+
+            <br>
+
+            <label for="commentaire">Laissez un commentaire</label>
+            <br>
+            <textarea name="commentaire" id="" cols="70" rows="10" placeholder="ceci est un commentaire"></textarea>
+
+            <br>
+
+            <label for="date">La date</label>
+            <input type="date" name="date">
+
+            <br>
+
+            <label for="photo">Ma photo</label>
+            <input type="file" name="photo" accept=".jpg, .png, .gif">
+            </fieldset>
+
+            <br>
+
+
+            <fieldset>
+            <legend>Vous préferez:</legend>
+
+            <input type="checkbox" name="" id=""><label for="">HTML</label>
+            <br>
+            <input type="checkbox" name="" id=""><label for="">CSS</label>
+            <br>
+            <input type="checkbox" name="" id=""><label for="">JS</label>
+            <br>
+            <input type="checkbox" name="" id=""><label for="">PHP</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+            <legend>Vous vous levez</legend>
+                <input type="radio" name="ma" value="radio1"><label for="ma">Matin</label>
+                <br>
+                <input type="radio" name="ap" value="radio2"><label for="ap">Après-midi</label>
+                <br>
+                <input type="radio" name="so" value="radio3"><label for="so">Soir</label>
+                <br>
+                <input type="radio" name="ta" value="radio4"><label for="ta">Tard</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+            <legend>Fin du formulaire</legend>
+                <label for="oui">Vous en avez assez ?</label>
+                <select name="oui" id="">
+                    <optgroup label="groupe 1">
+                        <option value="opt1">Type 1</option>
+                        <option value="opt2">Type 2</option>
+                        <option value="opt3">Type 3</option>
+                    </optgroup>
+
+                    <optgroup label="groupe 2">
+                        <option value="opt4">Type 1</option>
+                        <option value="opt5">Type 2</option>
+                        <option value="opt6">Type 3</option>
+                    </optgroup>
+                </select>
+                <br>
+                <input type="submit" value="Envoyer">
+                <input type="submit" value="Reset">
+            </fieldset>
+
+        </form>
+        
+    </body>
+</html>
